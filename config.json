@@ -1,0 +1,216 @@
+[ 
+{
+    "title":"Home",
+    "drawable":"ic_news",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+		{
+        "title":"Latest",
+        "provider":"wordpress",
+        "arguments":[
+          "http://gk.theindianresult.com/wp-json/wp/v2/"
+        ]
+      },
+	  {
+        "title":"SSC Current Affairs",
+        "provider":"wordpress",
+        "arguments":[
+          "https://www.gktoday.in/wp-json/wp/v2/"
+        ]
+      },
+	  {
+        "title":"UPSC Current Affairs",
+        "provider":"wordpress",
+        "arguments":[
+          "gk.theindianresult.com",
+		  "upsc-current-affairs"
+        ]
+      },
+	  {
+        "title":"UPSC Current Affairs",
+        "provider":"wordpress",
+        "arguments":[
+          "gk.theindianresult.com",
+		  "all-india-radio-spotlight"
+        ]
+      }
+    ]
+  },
+{
+    "title":"Hindi Current Affairs",
+    "drawable":"ic_news",
+    "submenu":"Current Affairs",
+    "iap":false,
+    "tabs":[
+	  {
+        "title":"Hindi Current Affairs",
+        "provider":"wordpress",
+        "arguments":[
+          "gk.theindianresult.com",
+		  "current-affairs"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"English Current Affairs",
+    "drawable":"ic_news",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+	  {
+        "title":"English Current Affairs",
+        "provider":"wordpress",
+        "arguments":[
+          "https://www.gktoday.in/wp-json/wp/v2/"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Daily Hindi Quiz",
+    "drawable":"ic_news",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+	  {
+        "title":"General Knowledge",
+        "provider":"wordpress",
+        "arguments":[
+          "gk.theindianresult.com",
+		  "ssc-gk"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"सामान्य ज्ञान के सभी लेख",
+    "drawable":"ic_news",
+    "submenu":"हिंदी सामान्य ज्ञान",
+    "iap":false,
+    "tabs":[
+	  {
+        "title":"सामान्य ज्ञान के सभी लेख",
+        "provider":"wordpress",
+        "arguments":[
+          "gk.theindianresult.com",
+		  "gk-articles-hindi"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"विषय के आधार पर",
+    "drawable":"ic_news",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+	  {
+        "title":"विषय के आधार पर",
+        "provider":"overview",
+        "arguments":[
+          "http://gk.theindianresult.com/app/conf/gkhi.json"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"All Articles",
+    "drawable":"ic_news",
+    "submenu":"English General Knowledge",
+    "iap":false,
+    "tabs":[
+	  {
+        "title":"All Articles",
+        "provider":"wordpress",
+        "arguments":[
+          "gk.theindianresult.com",
+		  "gk-articles"
+        ]
+      }
+    ]
+  },
+  {
+    "title":"Subject Wise",
+    "drawable":"ic_news",
+    "submenu":"",
+    "iap":false,
+    "tabs":[
+	  {
+        "title":"Subject Wise",
+        "provider":"overview",
+        "arguments":[
+          "http://gk.theindianresult.com/app/conf/gkeng.json"
+        ]
+      }
+    ]
+  },
+   {
+    "title":"Facebook",
+    "drawable":"ic_facebook",
+    "submenu":"Social",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Facebook",
+        "provider":"facebook",
+        "arguments":[
+          "150307518892052"
+        ]
+      }
+    ]
+  },
+     
+  {
+    "title":"Favorites",
+    "drawable":"ic_fav",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"",
+        "provider":"custom",
+        "arguments":[
+          "com.sherdle.universal.providers.fav.ui.FavFragment", "fragment"
+        ]
+      }
+    ]
+  },
+
+ 
+  
+   {
+    "title":"Rate Us",
+    "drawable":"ic_playstore",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"Rate Us",
+        "provider":"custom",
+        "arguments":[
+          "https://play.google.com/store/apps/details?id=gkapp.currentaffairs.hindi&hl=en","url"
+        ]
+      }
+    ]
+
+  },
+  
+  {
+    "title":"About",
+    "drawable":"ic_info",
+    "submenu":"Other",
+    "iap":false,
+    "tabs":[
+      {
+        "title":"About",
+        "provider":"custom",
+        "arguments":[
+          "com.sherdle.universal.SettingsFragment", "fragment"
+        ]
+      }
+    ]
+
+  }
+]
