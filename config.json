@@ -28,7 +28,7 @@
         ]
       },
 	  {
-        "title":"UPSC Current Affairs",
+        "title":"AIR Spotlight",
         "provider":"wordpress",
         "arguments":[
           "gk.theindianresult.com",
