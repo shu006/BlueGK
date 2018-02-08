@@ -9,7 +9,7 @@
         "title":"Latest",
         "provider":"wordpress",
         "arguments":[
-          "http://gk.theindianresult.com/wp-json/wp/v2/"
+          "https://gk.theindianresult.com/wp-json/wp/v2/"
         ]
       },
 	  {
@@ -110,7 +110,7 @@
         "title":"विषय के आधार पर",
         "provider":"overview",
         "arguments":[
-          "http://gk.theindianresult.com/app/conf/gkhi.json"
+          "https://gk.theindianresult.com/app/conf/gkhi.json"
         ]
       }
     ]
@@ -141,7 +141,7 @@
         "title":"Subject Wise",
         "provider":"overview",
         "arguments":[
-          "http://gk.theindianresult.com/app/conf/gkeng.json"
+          "https://gk.theindianresult.com/app/conf/gkeng.json"
         ]
       }
     ]
