@@ -9,7 +9,7 @@
         "title":"Latest",
         "provider":"wordpress",
         "arguments":[
-          "https://gk.theindianresult.com/wp-json/wp/v2/"
+          "https://bluegk.com/wp-json/wp/v2/"
         ]
       },
 	  {
@@ -23,7 +23,7 @@
         "title":"UPSC Current Affairs",
         "provider":"wordpress",
         "arguments":[
-          "gk.theindianresult.com",
+          "bluegk.com",
 		  "upsc-current-affairs"
         ]
       },
@@ -31,7 +31,7 @@
         "title":"AIR Spotlight",
         "provider":"wordpress",
         "arguments":[
-          "gk.theindianresult.com",
+          "bluegk.com",
 		  "all-india-radio-spotlight"
         ]
       }
@@ -47,7 +47,7 @@
         "title":"Hindi Current Affairs",
         "provider":"wordpress",
         "arguments":[
-          "gk.theindianresult.com",
+          "bluegk.com",
 		  "current-affairs"
         ]
       }
@@ -78,7 +78,7 @@
         "title":"General Knowledge",
         "provider":"wordpress",
         "arguments":[
-          "gk.theindianresult.com",
+          "bluegk.com",
 		  "ssc-gk"
         ]
       }
@@ -94,7 +94,7 @@
         "title":"सामान्य ज्ञान के सभी लेख",
         "provider":"wordpress",
         "arguments":[
-          "gk.theindianresult.com",
+          "bluegk.com",
 		  "gk-articles-hindi"
         ]
       }
@@ -110,7 +110,7 @@
         "title":"विषय के आधार पर",
         "provider":"overview",
         "arguments":[
-          "https://gk.theindianresult.com/app/conf/gkhi.json"
+          "https://bluegk.com/app/conf/gkhi.json"
         ]
       }
     ]
@@ -125,7 +125,7 @@
         "title":"All Articles",
         "provider":"wordpress",
         "arguments":[
-          "gk.theindianresult.com",
+          "bluegk.com",
 		  "gk-articles"
         ]
       }
